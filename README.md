@@ -79,6 +79,8 @@ streamlit run streamlit/app.py
 - **Resultado no conjunto de teste (273 alunos):** acurácia 80%, recall 83% e precisão 78%
   para a classe "em risco".
 
+## Links  
+
 ## Resultados da análise
 | # | Pergunta | Resposta curta |
 |---|---|---|
@@ -96,5 +98,4 @@ streamlit run streamlit/app.py
 
 ## Autor
 
-Luiz Carvalho
-Pós-graduação em Data Analytics - FIAP
+Luiz Carvalho Pós-graduação em Data Analytics – FIAP
