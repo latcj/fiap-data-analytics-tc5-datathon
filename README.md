@@ -1,4 +1,4 @@
-# Datathon FIAP - Fase 5 - Passos Mágicos
+# Tech Challenge 5 - Datathon - Passos Mágicos
 
 ## Objetivo
 
@@ -7,6 +7,7 @@ impacto do programa no desempenho dos alunos, e desenvolver um modelo de Machine
 de prever quais alunos correm risco de defasagem escolar no ano seguinte, auxiliando a equipe
 pedagógica na priorização do acompanhamento.
 
+## Tecnologias utilizadas
 
 - Python
 - Pandas
@@ -77,26 +78,21 @@ streamlit run streamlit/app.py
 - **Modelo escolhido:** Random Forest.
 - **Resultado no conjunto de teste (273 alunos):** acurácia 80%, recall 83% e precisão 78%
   para a classe "em risco".
-- Avaliação realizada utilizando conjunto de teste separado do treinamento, com `stratify`
-  para manter a mesma proporção de alunos em risco nos dois conjuntos.
 
 ## Resultados da análise
-
-1. **IAN** melhora de forma consistente nos 3 anos (6,42 → 7,68); defasagem severa cai de 3,3%
-   para 0,3% dos alunos.
-2. **IDA** oscila (6,09 → 6,66 → 6,35), sem tendência linear como o IAN; fases intermediárias
-   (2 e 3) ficam com desempenho mais baixo nos três anos.
-3. **IEG** tem relação moderada com IDA (r=0,54) e IPV (r=0,56).
-4. **IAA** tem correlação baixa com o desempenho real (r=0,12) - os alunos tendem a se
-   autoavaliar acima do que realmente performam.
-5. **IPS** do ano anterior é um pouco mais baixo entre alunos que caem de desempenho, mas é um
-   sinal parcial, não isolado.
-6. **IPP** confirma a defasagem do IAN direcionalmente, mas com relação fraca - são indicadores
-   complementares.
-7. **IPV** é mais influenciado por IPP, IEG e IDA.
-8. **INDE** é mais puxado por IDA, IEG e IPV.
-9. **Efetividade do programa:** Quartzo cai de 15,3% para 10,6%; Topázio sobe de 15,1% para
-   30,9% ao longo dos 3 anos.
+| # | Pergunta | Resposta curta |
+|---|---|---|
+| 1 | **Perfil de defasagem (IAN)** | Melhora clara: defasagem severa quase zerada, IAN 6,42 → 7,68 |
+| 2 | **Desempenho (IDA)** | Estagnado; vale nas fases 2 e 3 |
+| 3 | **Engajamento (IEG)** | Relação moderada com IDA e IPV |
+| 4 | **Autoavaliação (IAA)** | Pouco coerente com o desempenho real; otimista demais |
+| 5 | **Psicossocial (IPS)** | Sinal fraco, serve só em conjunto |
+| 6 | **Psicopedagógico (IPP)** | Confirma o IAN na direção, mas com relação fraca |
+| 7 | **Ponto de virada (IPV)** | Puxado por IPP e IEG |
+| 8 | **Multidimensionalidade** | INDE puxado por IDA/IEG/IPV; efeito cumulativo |
+| 9 | **Previsão de risco** | Grupos já se separam um ano antes (ver notebook 02) |
+| 10 | **Efetividade** | Sim: Quartzo cai, Topázio mais que dobra |
+| 11 | **Insights** | Evasão seletiva e gargalo na fase 3 |
 
 ## Autor
 
