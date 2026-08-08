@@ -98,4 +98,6 @@ streamlit run streamlit/app.py
 
 ## Autor
 
-Luiz Carvalho Pós-graduação em Data Analytics – FIAP
+Luiz Carvalho
+
+Pós-graduação em Data Analytics – FIAP
