@@ -101,7 +101,7 @@ streamlit run streamlit/app.py
 
 ### [Aplicação Streamlit](https://fiap-tc5-risco-defasagem.streamlit.app//)
 
-### [Vídeo de apresentação](https://www.youtube.com/watch?v=4z3HHzEyyTU)
+### [Vídeo de apresentação]
 
 ## Autor
 
