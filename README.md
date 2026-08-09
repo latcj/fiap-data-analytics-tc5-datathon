@@ -38,7 +38,7 @@ pedagógica na priorização do acompanhamento.
 │
 ├── presentation/
 │   ├── Passos_Magicos_Datathon.pptx
-│   └── assets_v3/                   # gráficos gerados pelo notebook 03
+│   └── Passos_Magicos_Datathon.pdf
 ├── requirements.txt
 └── README.md
 ```
