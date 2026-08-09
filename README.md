@@ -25,9 +25,9 @@ pedagógica na priorização do acompanhamento.
 │       └── BASE_DADOS_PEDE_2024_DATATHON.xlsx
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb                 # exploração dos dados
-│   ├── 02_model_training.ipynb      # modelo preditivo
-│   └── 03_analise_perguntas.ipynb   # respostas às 11 perguntas
+│   ├── 01_eda.ipynb
+│   ├── 02_model_training.ipynb     
+│   └── 03_analise_perguntas.ipynb
 │
 ├── src/
 │   └── data_cleaning.py
