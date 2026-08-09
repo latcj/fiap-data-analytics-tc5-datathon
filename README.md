@@ -95,7 +95,6 @@ streamlit run streamlit/app.py
 | 8 | **Multidimensionalidade** | INDE puxado por IDA/IEG/IPV; efeito cumulativo |
 | 9 | **Previsão de risco** | Grupos já se separam um ano antes (ver notebook 02) |
 | 10 | **Efetividade** | Sim: Quartzo cai, Topázio mais que dobra |
-| 11 | **Insights** | Evasão seletiva e gargalo na fase 3 |
 
 ## Links  
 
