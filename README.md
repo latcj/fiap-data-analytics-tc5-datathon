@@ -23,14 +23,16 @@ pedagógica na priorização do acompanhamento.
 ├── data/
 │   └── raw/
 │       └── BASE_DADOS_PEDE_2024_DATATHON.xlsx
+│   └── processed/
+│       └── pede_consolidado.csv
+│
+├── src/
+│   └── data_cleaning.py
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_model_training.ipynb     
 │   └── 03_analise_perguntas.ipynb
-│
-├── src/
-│   └── data_cleaning.py
 │
 ├── streamlit/
 │   ├── app.py
@@ -39,6 +41,7 @@ pedagógica na priorização do acompanhamento.
 ├── presentation/
 │   ├── Passos_Magicos_Datathon.pptx
 │   └── Passos_Magicos_Datathon.pdf
+│
 ├── requirements.txt
 └── README.md
 ```
