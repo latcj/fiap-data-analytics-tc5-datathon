@@ -23,14 +23,16 @@ pedagógica na priorização do acompanhamento.
 ├── data/
 │   └── raw/
 │       └── BASE_DADOS_PEDE_2024_DATATHON.xlsx
-│
-├── notebooks/
-│   ├── 01_eda.ipynb                 # exploração dos dados
-│   ├── 02_model_training.ipynb      # modelo preditivo
-│   └── 03_analise_perguntas.ipynb   # respostas às 11 perguntas
+│   └── processed/
+│       └── pede_consolidado.csv
 │
 ├── src/
 │   └── data_cleaning.py
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_model_training.ipynb     
+│   └── 03_analise_perguntas.ipynb
 │
 ├── streamlit/
 │   ├── app.py
@@ -39,6 +41,7 @@ pedagógica na priorização do acompanhamento.
 ├── presentation/
 │   ├── Passos_Magicos_Datathon.pptx
 │   └── Passos_Magicos_Datathon.pdf
+│
 ├── requirements.txt
 └── README.md
 ```
@@ -78,9 +81,7 @@ streamlit run streamlit/app.py
 - **Modelo escolhido:** Random Forest.
 - **Resultado no conjunto de teste (273 alunos):** acurácia 80%, recall 83% e precisão 78%
   para a classe "em risco".
-
-## Links  
-
+  
 ## Resultados da análise
 | # | Pergunta | Resposta curta |
 |---|---|---|
@@ -95,6 +96,12 @@ streamlit run streamlit/app.py
 | 9 | **Previsão de risco** | Grupos já se separam um ano antes (ver notebook 02) |
 | 10 | **Efetividade** | Sim: Quartzo cai, Topázio mais que dobra |
 | 11 | **Insights** | Evasão seletiva e gargalo na fase 3 |
+
+## Links  
+
+### [Aplicação Streamlit](https://fiap-tc5-risco-defasagem.streamlit.app//)
+
+### [Vídeo de apresentação](https://youtu.be/sFjyDjD9zjo)
 
 ## Autor
 
